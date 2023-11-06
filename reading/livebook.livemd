@@ -121,7 +121,11 @@ Livebook may change this UI, so if this is instruction is no longer accurate ple
 
 Create an Elixir code cell below. Run some Elixir code such as `1 + 2` in the cell.
 
-<!-- livebook:{"break_markdown":true} -->
+```elixir
+# My custom Elixir cell
+IO.puts("Hello skyturtle")
+1 + 2
+```
 
 ### Livebook Shortcuts
 
@@ -154,6 +158,7 @@ to see the Markdown content inside.
 <div style="padding: 1rem;background-color:lightgray; text-align: center;">
 
 ### Click Me Then Press Edit<i Class="ri-pencil-line"></i>
+### Hello Dockyard Academy
 
 </div>
 
@@ -208,7 +213,7 @@ Evaluate the Elixir cell below, then change `5` to `4` to see **Evaluated** chan
 Re-evaluate the cell to see *Evaluated\** change to **Evaluated**.
 
 ```elixir
-5
+4
 ```
 
 Sometimes order of evaluation can cause issues in Exercises by using a stale version of an Elixir cell. Make sure to evaluate a code cell whenever you make a change.
@@ -222,7 +227,7 @@ Try uncommenting the following code (Remove the `#` character) then press <kbd>C
 Notice that the `1 + 1` code moves to the left.
 
 ```elixir
-# 1 + 1
+1 + 1
 ```
 
 If you have not evaluated any Elixir code cells, you may see a warning.
@@ -235,7 +240,7 @@ If you cannot format an Elixir cell, you can use this as a clue that you have a 
 code is invalid. Notice that you cannot use <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> to format the code.
 
 ```elixir
-          1 +
+1 + 4
 ```
 
 ## Commit Your Progress
