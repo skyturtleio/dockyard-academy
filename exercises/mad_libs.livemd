@@ -56,7 +56,11 @@ blank3 = "code"
 Enter your solution below.
 
 ```elixir
+noun = "magician"
+object = "code"
+what = "life"
 
+"A programmer is a #{noun} that turns #{object} into #{what}."
 ```
 
 ## String Interpolation Madlib
@@ -81,7 +85,11 @@ blank3 = "foobar"
 Enter your solution below.
 
 ```elixir
+element_1 = "hydrogen"
+element_2 = "oxygen"
+combo = "water"
 
+"#{element_1} and #{element_2} combined makes #{combo}"
 ```
 
 ## Commit Your Progress
