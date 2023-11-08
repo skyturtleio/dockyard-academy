@@ -329,7 +329,8 @@ decoded_body = Jason.decode!(response.body)
 Now we can work with the decoded body like any Elixir map. For example we can access the "joke" field.
 
 ```elixir
-decoded_body["joke"]
+IO.puts(decoded_body["setup"])
+decoded_body["delivery"]
 ```
 
 ## Building A Finch Request
